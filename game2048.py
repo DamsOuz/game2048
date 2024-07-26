@@ -15,4 +15,5 @@ while (init_row_2 == init_row_1) and (init_column_2 == init_column_1):
 game_matrix[init_row_1, init_column_1] = 2
 game_matrix[init_row_2, init_column_2] = 2
 
+print("test")
 print("hello")

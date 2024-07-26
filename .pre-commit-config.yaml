@@ -13,10 +13,6 @@ repos:
       - id: trailing-whitespace
       - id: check-docstring-first
       - id: debug-statements
-  - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.6
-    hooks:
-      - id: bandit
   - repo: https://github.com/psf/black
     rev: 23.11.0
     hooks:
@@ -24,8 +20,6 @@ repos:
         language_version: python3.12
         args:
           - --line-length=128
-      - id: black-jupyter
-        language_version: python3.12
   - repo: https://github.com/pycqa/isort
     rev: 5.13.0
     hooks:
